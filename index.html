@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>erp</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="Styles/Header.css">
+        <link rel="stylesheet" href="Styles/Universal.css">
+        <link rel="stylesheet" href="Styles/Container.css">
+        <link rel="stylesheet" href="Styles/sidebar.css">
+
+    </head>
+
+    <body>
+        
+        <div class="fixed-head">
+            <div class="erp-header">
+
+                <div class="erp"><p>ERP</p></div>
+
+                <div class="toolbar">
+
+                    <div class="menu"> <img src="images/H-menu.png"> </div>
+
+                    <div class="icons">
+                        <div> <img src="images/messages.png"> </div>
+                        <div> <img src="images/notification.png"> </div>
+                        <div> <img class="profile-menu" src="images/profile-pic.jpeg"> </div>
+                        <div> <img src="images/drop-down.png"> </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="sidebar-container">
+
+            <div class="sidebar">
+
+            </div>
+
+            <div class="container">
+                <div class="box">
+                    <p class="header">Click here to submit Feedback for Even Semester 2021-22</p>
+                </div>
+
+                <div class="box">
+                    <p class="header">Your Google Credentials</p>
+                    <p class="content">Username/Email: B200000@skit.ac.in</p>
+                    <p class="content">Password: *********</p>
+                    <p class="content">For accessing Gmail.</p>
+                </div>
+
+                <div class="box">
+                    <p class="header">IMPORTANT! - Submit NAD ID</p>
+                    <p class="content">For more information, visit https://www.skit.ac.in/index.php?option=com_content&view=article&id=591</p>
+                </div>
+
+                <div style="width: 100%;">
+                    <div class="profile-img">
+                        <img class="profile-img2" src="images/profile-pic.jpeg">
+                        <p>Angel Priya</p>
+                    </div>
+
+                    <div>
+                        <div class="information">
+                            <div class="icon"> <img src="images/avatar.png"> </div>
+                            <div class="type-info">Username</div>
+                            <div class="info">B200000</div>
+                        </div>
+                        <div class="information">
+                            <div class="icon"> <img src="images/pink-messages.png"> </div>
+                            <div class="type-info">Email</div>
+                            <div class="info">Vixen@gmail.com</div>
+                        </div>
+                        <div class="information">
+                            <div class="icon"> <img src="images/call.png"> </div>
+                            <div class="type-info">Phone</div>
+                            <div class="info">9914173314</div>
+                        </div>
+                        <div class="information">
+                            <div class="icon"> <img src="images/web.png"> </div>
+                            <div class="type-info">Address</div>
+                            <div class="info">In your heart</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const menu = document.querySelector('.menu')
+            const sidebar = document.querySelector('.sidebar-container')
+            const close = document.querySelector('.sidebar')
+    
+            menu.addEventListener('click', () => {
+                sidebar.classList.add('open-nav')
+            })
+            close.addEventListener('click', () => {
+                sidebar.classList.remove('open-nav')
+            })
+        </script>
+
+    </body>
+
+</html>

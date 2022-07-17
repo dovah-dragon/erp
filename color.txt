@@ -1,0 +1,7 @@
+Notification no: #d9534f
+background: #f1f2f7
+left border: #dfb5b4
+box: #fcf2f2
+text: #c84a48
+sidebar: #2d353c
+sidebar hover: 
